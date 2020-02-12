@@ -25,7 +25,8 @@
             <ul class="links">
                 <li><a href="#home" class="active"><span class="fa fa-home"></span>Home</a></li>
                 <li><a href="#about"><span class="fa fa-user"></span>About</a></li>
-                <li><a href="#portfolio"><span class="fa fa-briefcase"></span>Portfolio</a></li>
+                <li><a href="#project"><span class="fa fa-briefcase"></span>Portfolio</a></li>
+                <li><a href="#skills"><span class="fa fa-briefcase"></span>Skills</a></li>
                 <li><a href="#contact"><span class="fa fa-comments"></span>Contact</a></li>
 
             </ul>
@@ -34,7 +35,7 @@
         </nav>
     </header>
     <!-- Home section  -->
-    <section class="home">
+    <section class="home" id="home" >
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -47,9 +48,7 @@
                     <div class="text">
                         <h3>Hi there !</h3>
                         <h1>I'm a <span> Junior Web Developer</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officiis commodi similique
-                            ipsa nisi, illum ut voluptates velit aliquid. Animi omnis veritatis maiores nemo eius
-                            possimus ex ea, temporibus illum?</p>
+                        <p> </p>
                         <div class="home-btns">
                             <a href="" class="btn-bg"><span class="fa fa-user"></span> More About Me</a>
                             <a href="" class="btn-link"><span class="fa fa-briefcase"></span>Portfolio</a>
@@ -66,100 +65,189 @@
             <h1>About </h1>
         </div>
         <div class="about-info">
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus inventore provident ratione odio
-                obcaecati cumque sapiente placeat molestiae eaque itaque ullam aut cum quos tenetur cupiditate facilis,
-                tempore quae voluptas commodi id? Tempora consequuntur aut reiciendis, laboriosam animi ducimus
-                blanditiis dolor error porro incidunt ex debitis necessitatibus? Quibusdam eius illo commodi. Blanditiis
-                vel, corrupti quia magni modi accusamus ratione maiores eaque nihil adipisci, perferendis eveniet ad,
-                repudiandae praesentium deleniti ipsa odio molestiae provident impedit libero nemo vitae eligendi
-                cupiditate repellat! Voluptates, consequatur quia! Molestias possimus itaque nobis dignissimos labore
-                fugit, odit beatae omnis laboriosam vitae fugiat aut enim consectetur error voluptatum eaque veniam, ex,
-                aliquam modi architecto. Ut reprehenderit repudiandae quibusdam labore nihil, quasi sit magni nulla
-                inventore nobis temporibus ab illo nam harum laboriosam assumenda, ipsa earum. Soluta, cum, veniam
-                sapiente numquam quisquam facere placeat unde aut libero ad illo adipisci. Obcaecati animi dicta
-                nesciunt suscipit, voluptatibus culpa labore! Voluptatum, accusantium. Ipsum, repellat. Temporibus
-                expedita adipisci quos architecto sit nesciunt, aliquam quaerat cum praesentium quis possimus doloremque
-                odio labore soluta, cumque incidunt in asperiores dolorem laudantium at officia. Repudiandae praesentium
-                totam excepturi, minima libero et perspiciatis delectus iure officia laborum est, laudantium architecto?
-                Accusantium alias aliquid temporibus odit!</p>
-                <a href="http://" class="dowloadbtn" >Download CV</a>
-                <div class="timeline">
-                    <div class="col">
-                        <span>2020</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, minima?</p>
-                    </div>
-                </div>
+
+            <p>My name is Leon, I am from Nairobi, Kenya. And I'm a beginner full stack web developer, currently I
+                have some experience with HTML&Bootstrap, CSS, JS&Jquery,PostgreSQL and Python. Now I practice in the
+                development of web applications, and some frameworks like Angular, Django and Flask etc. I want to learn more and
+                utilize my skills in the field of Information Technology and to help solve real world challenges.</p>
+            <a href="http://" class="dowloadbtn">Download CV</a>
+
         </div>
     </section>
 
-    <section id="gallery" class="gallery">
+    <section id="project" class="gallery">
         <div class="section-title">
             <h1>Projects</h1>
-            <div class="gallery-info">
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" >
-                </div>
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" >
-                </div>
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" >
-                </div>
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" >
-                </div>
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" >
-                </div>
-            </div>
-
-        </div>
-
-
-    </section>
-    <section id="skills" class="skills">
-        <div class="section-title">
-            <h1>Skills</h1>
-            <div class="skills-info">
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JAVASCRIPT</li>
-                    <li>PYTHON</li>
-                    <li>POSTGRESQL</li>
+            <div class="demo-gallery">
+                <ul id="lightgallery">
+                    <li data-responsive="https://sachinchoolur.github.io/lightGallery/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightGallery/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightGallery/static/img/1.jpg 800"
+                        data-src="https://sachinchoolur.github.io/lightGallery/static/img/1-1600.jpg"
+                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"
+                        data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+                        <a href="https://github.com/Bchizi/instajam">
+                            <img class="img-responsive"
+                                src="https://socialmediaexplorer.com/wp-content/uploads/2018/11/Instagram.jpg">
+                            <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
+                            </div>
+                        </a>
+                        <h3>Instajam</h3>
+                    </li>
+                    <li data-responsive="https://sachinchoolur.github.io/lightGallery/static/img/2-375.jpg 375, https://sachinchoolur.github.io/lightGallery/static/img/2-480.jpg 480, https://sachinchoolur.github.io/lightGallery/static/img/2.jpg 800"
+                        data-src="https://sachinchoolur.github.io/lightGallery/static/img/2-1600.jpg"
+                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
+                        data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+                        <a href="https://github.com/Bchizi/neiba">
+                            <img class="img-responsive"
+                                src="https://lh3.googleusercontent.com/proxy/XOZM7meKueho8AsCthPx-pA1cxoO61IG818m-zLLuxhOQOM4qeOydUGw-gT6BN1vNx7OKm4BG-jYSvy82LfYbACMeKgNSFEmcOS7nf97T-P0CnfrWL6Se_kWjrLduDzZ7lzPcc4rFESTG9tusfonJo2MjBwKEwFQZQ">
+                            <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
+                            </div>
+                        </a>
+                        <h3>Neighbourhood</h3>
+                    </li>
+                    <li data-responsive="https://sachinchoolur.github.io/lightGallery/static/img/13-375.jpg 375, https://sachinchoolur.github.io/lightGallery/static/img/13-480.jpg 480, https://sachinchoolur.github.io/lightGallery/static/img/13.jpg 800"
+                        data-src="https://sachinchoolur.github.io/lightGallery/static/img/13-1600.jpg"
+                        data-sub-html="<h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>"
+                        data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+                        <a href="https://github.com/Bchizi/foto_ops">
+                            <img class="img-responsive"
+                                src="https://southwarkparkgalleries.org/wp-content/uploads/2019/11/35th-Annual-Open-2019.-Installation-photograph-by-Damian-Griffiths-courtesy-the-artists-and-Southwark-Park-Galleries-9-735x356.jpg">
+                            <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
+                            </div>
+                        </a>
+                        <h3>Foto-ops </h3>
+                    </li>
+                    <li data-responsive="https://sachinchoolur.github.io/lightGallery/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightGallery/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightGallery/static/img/4.jpg 800"
+                        data-src="https://sachinchoolur.github.io/lightGallery/static/img/4-1600.jpg"
+                        data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>" data-pinterest-text="Pin it"
+                        data-tweet-text="share on twitter ">
+                        <a href="">
+                            <img class="img-responsive"
+                                src="https://pbs.twimg.com/media/EFJaXOZWkAU79eT.jpg">
+                            <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/zoom.png">
+                            </div>
+                        </a>
+                        <h3>Mama Mboga  </h3>
+                    </li>
                 </ul>
+                <span class="small">Click on any of the images to see live or Readme</span>
             </div>
+        </div>
 
         </div>
-       
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="section-title" >
-            <h1>Contact</h1>
-
-        </div>
-        <div class="contact-info">
-            <form action="">
-                <input type="text" class="textField"  placeholder="FullName" required="">
-                <input type="text" class="textField"  placeholder="Email" required="">
-                <textarea name="" id="" cols="30" rows="10" class="textField messageField" placeholder="Your Message"></textarea>
-                <input type="submit" class="textField submitButton" value="Send Message">
-            </form>
-        </div>
-    </section>
 
 
+        <section class="skills scroll" id="skills">
+            <div class="container">
+                <h2>Skills and proficiency</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0s">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/171px-CSS.3.svg.png"
+                                alt="Java Script logo" class="img-responsive img-thumbnail center-block">
+                            <h3>CSS3</h3>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                                alt="HTML logo" class="img-responsive img-thumbnail center-block">
+                            <h3>HTML5</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png"
+                                alt="Python" class="img-responsive img-thumbnail center-block">
+                            <h3>Python</h3>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                                alt="Web tools logo" class="img-responsive img-thumbnail center-block">
+                            <h3>JavaScript</h3>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="https://www.enterprisedb.com/sites/default/files/logo-postgresql-700x500.png"
+                                alt="Web tools logo" class="img-responsive img-thumbnail center-block">
+                            <h3>Postgresql</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h1>Contact</h1>
+
+            </div>
+            <div class="contact-info">
+                <form action="">
+                    <input type="text" class="textField" placeholder="FullName" required="">
+                    <input type="text" class="textField" placeholder="Email" required="">
+                    <textarea name="" id="" cols="30" rows="10" class="textField messageField"
+                        placeholder="Your Message"></textarea>
+                    <input type="submit" class="textField submitButton" value="Send Message">
+                </form>
+            </div>
+        </section>
 
 
-    <!-- Home section End  -->
+
+
+        <!-- Home section End  -->
 
 
 
 
-    <script src="js/script.js"></script>
-    <script src="js/jquery.3.3.1.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/jquery.3.3.1.js"></script>
 </body>
+<footer >
+    <div class="container">
+        <h2 class="text-center">Get in touch</h2>
+        <div class="row contact">
+            <div class="col-md-6 text-right">
+                <!-- <div class="contacts-data">
+
+                    <a href="#" class="btn btn-success transparent" style="color: white;">Get in touch <i
+                            class="fa fa-arrow-right button-icon"></i></a>
+                </div> -->
+            </div>
+            <div class="col-md-6">
+                <div class="contacts-data">
+                    <i class="fa fa-paper-plane fa-2x"></i>
+                    <span class="contact-text">leonbichanga@gmail.com</span>
+                </div>
+                <div class="contacts-data">
+                    <i class="fa fa-phone fa-2x"></i>
+                    <span class="contact-text">0722993656</span>
+                </div>
+                <div class="contacts-data">
+                    <i class="fa fa-skype fa-2x"></i>
+                    <span class="contact-text">Leon Bichanga</span>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">
+            ALL RIGHTS RESERVED. 2020
+        </p>
+    </div>
+</footer>
 
 </html>
