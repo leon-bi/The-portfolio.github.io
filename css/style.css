@@ -75,10 +75,14 @@ header nav a.nav-trigger span::after{
 header nav ul{
     list-style: none;
     margin: 0;
-    padding: 50px 20px;
+    padding: 50px 0;
     position: relative;
-    z-index: 11;
+    z-index: 11; 
+    visibility: hidden;
 
+}
+header nav.nav-is-visible ul{
+    visibility: visible;
 }
 header nav ul li{
     display: block;
@@ -93,6 +97,33 @@ header nav ul li a{
     height: 50px;
     line-height: 50px;
     transition: all 0.3s ease;
+    opacity: 0;
+    display: inline-block ;
+}
+header nav.nav-is-visible ul li a{
+    animation: nav 0.15s ease forwards;
+}
+header nav ul li:nth-child(2)a{
+    animation-delay: 0.1s;
+}
+header nav ul li:nth-child(3)a{
+    animation-delay: 0.2s;
+}
+header nav ul li:nth-child(4)a{
+    animation-delay: 0.3s;
+}
+header nav ul li:nth-child(5)a{
+    animation-delay: 0.4s;
+}
+@keyframes nav{
+    from{
+       opacity: 0;
+       transform: translateX(-15px); 
+    }
+    to{
+        opacity: 1;
+       transform: translateX(0);
+    }
 }
 header nav ul li a:hover{
     color: rgba(106, 255, 6, 0.507);
@@ -122,6 +153,8 @@ header nav span.stretchy-nav-bg{
     height: 60px;
     background-color: #333333;
     border-radius: 30px;
+    transition: all 0.3s ease;
+
 }
 header nav.nav-is-visible span.stretchy-nav-bg{
     height: 100%;
